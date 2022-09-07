@@ -1,0 +1,46 @@
+.fw-medium {
+    font-weight: 500 !important;
+}
+
+.fw-semi-bold {
+    font-weight: 600 !important;
+}
+
+.service-item {
+    height: 320px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .05);
+    transition: .5s;
+}
+
+.service-item-enabled {
+    background: #3e8bff;
+}
+.service-item-disabled {
+    background: #f9395f;
+}
+
+@media screen and (max-width: 768px) {
+    .service-item {
+        height: auto;
+    }
+}
+
+.service-item-svg {
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    color: #0000005d;
+}
+
+.service-item .service-icon {
+    margin: 0 auto 30px auto;
+    width: 65px;
+    height: 65px;
+    transition: .5s;
+}
